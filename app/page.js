@@ -7,8 +7,8 @@ import { Box, Button, IconButton, Paper, Table, TableBody, TableCell, TableConta
 import Modal from '@mui/material/Modal';
 import Stack from '@mui/material/Stack';
 import {
-  collection, deleteDoc, doc, getDoc, getDocs,
-  query, setDoc
+    collection, deleteDoc, doc, getDoc, getDocs,
+    query, setDoc
 } from 'firebase/firestore';
 import { useEffect, useState } from 'react';
 
